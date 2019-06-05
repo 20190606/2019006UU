@@ -5,13 +5,18 @@ import cn.kgc.tangcco.zhangqing.dao.impl.PersonDaoImpl;
 import cn.kgc.tangcco.zhangqing.service.PersonService;
 
 public class PersonServiceImpl implements PersonService {
-	PersonDao pDao=new PersonDaoImpl();
+	PersonDao pDao = new PersonDaoImpl();
 
 	@Override
 	public void heihei() {
-			pDao.heihei();
+		pDao.heihei();
 
 	}
 
+	@Override
+	public void haha() {
+		pDao.haha();
+
+	}
 
 }
